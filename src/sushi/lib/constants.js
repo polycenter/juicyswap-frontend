@@ -458,7 +458,7 @@ SLP Address on mainnet for reference
 
 // JUICYSWAP SETTINGS
 
-export const CHAIN_ID = 4
+export const CHAIN_ID = 3
 
 export const contractAddresses = {
   sushi: {
