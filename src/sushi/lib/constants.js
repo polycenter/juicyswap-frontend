@@ -462,16 +462,16 @@ export const CHAIN_ID = 4
 
 export const contractAddresses = {
   sushi: {
-    4: '0xecD246d5Dac3Cd49DfA0144Aea1439a4C4074B64',
+    3: '0xF22eE5DeDf2F93B1db30fcbd053665E1FdDE141B',
   },
   masterChef: {
-    4: '0x4533060563B89c986d8f838f503c6bD2C9F383E7',
+    3: '0xed4E25d5ab844a645a76c28E0f3c2325609c3dB3',
   },
   weth: {
-    4: '0xc778417e063141139fce010982780140aa0cd5ab',
+    3: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
   },
   xSushi: {
-    4: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
+    3: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
   }
 }
 
@@ -481,14 +481,14 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      4: '0x03e6c12ef405ac3f642b9184eded8e1322de1a9e', // LP Token Address
+      3: '0xBdD521C71A66981F2A9C795358b27CafE4B923A5', // LP Token Address
     },
     tokenAddresses: {
-      4: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2', // Token, i.e. "DAI"
+      3: '0xF22eE5DeDf2F93B1db30fcbd053665E1FdDE141B', // Token, i.e. "DAI"
     },
     name: 'Juice Party!',
-    symbol: 'DAI-ETH LP',
-    tokenSymbol: 'DAI',
+    symbol: 'JUICY-ETH LP',
+    tokenSymbol: 'JUICY',
     icon: '🍊',
   },
 ]
