@@ -27,8 +27,8 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle="Earn LDOGE tokens by staking Legend Doge SLP Tokens. Note: Current APY does not include 2/3rd SUSHI emission that is locked and will be retroactively disbursed at a later date."
-                title="Select Your Favorite Juices"
+                subtitle="Earn LDOGE tokens by staking Legend Doge SLP Tokens. Note: Current APY does not include 2/3rd LDOGE emission that is locked and will be retroactively disbursed at a later date."
+                title="Select Your Favorite Legend Doge"
               />
               <FarmCards />
             </Route>
