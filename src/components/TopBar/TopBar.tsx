@@ -14,7 +14,7 @@ interface TopBarProps {
 const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
   return (
     <StyledTopBar>
-      <div style={{ backgroundColor: 'black', color: 'white', textAlign: 'center', padding: '3px', marginBottom: '10px' }}>This is a tutorial project on Rinkeby test net. There is no JUICY token. Do not get scammed.</div>
+      <div style={{ backgroundColor: 'black', color: 'white', textAlign: 'center', padding: '3px', marginBottom: '10px' }}>Contract Testnet Ropsten Address: 0xF62C1eE52f19e7DfBC4CA0bE73cA28AA57a86784</div>
       <Container size="lg">
         <StyledTopBarInner>
           <StyledLogoWrapper>
