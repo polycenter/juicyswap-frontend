@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={logo} height={120} />}
-        title="Juice Master is Ready"
-        subtitle="Stake JuicySwap LP tokens to claim your very own yummy JUICY!"
+        title="Legend Doge Master is Ready"
+        subtitle="Stake Legend Doge LP tokens to claim your very own yummy LDOGE!"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: JUICY-ETH LP token pool yields 4.8x more token
+        🏆<b>Pro Tip</b>: LDOGE-MATIC LP token pool yields 5x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
