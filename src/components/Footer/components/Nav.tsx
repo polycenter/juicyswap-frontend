@@ -8,7 +8,7 @@ const Nav: React.FC = () => {
         target="_blank"
         href="#"
       >
-        JuiceMaster Contract
+        LegendDoge Master Contract
       </StyledLink>
       {/*<StyledLink
         target="_blank"
@@ -16,16 +16,16 @@ const Nav: React.FC = () => {
       >
         SushiSwap SUSHI-ETH
       </StyledLink> */}
-      <StyledLink target="_blank" href="#">
-        Discord
+      <StyledLink target="_blank" href="https://t.me/LegendDogeCommunity">
+        Telegram
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://github.com/LegendDoge">
         Github
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://twitter.com/LegendDogeCom">
         Twitter
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://medium.com/@legenddoge">
         Medium
       </StyledLink>
     </StyledNav>
