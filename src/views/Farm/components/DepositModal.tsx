@@ -55,7 +55,7 @@ const DepositModal: React.FC<DepositModalProps> = ({
           onClick={async () => {
             setPendingTx(true)
             await onConfirm(val)
-            setPendingTx(false)
+            setPendingTx(true)
             onDismiss()
           }}
         />
