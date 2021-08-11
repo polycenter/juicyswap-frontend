@@ -103,7 +103,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
     const { hours, minutes, seconds } = countdownProps
     const paddedSeconds = seconds < 10 ? `0${seconds}` : seconds
     const paddedMinutes = minutes < 10 ? `0${minutes}` : minutes
-    const paddedHours = hours < 10 ? `0${hours}` : hours
+    const paddedHours = hours < 1 ? `0${hours}` : hours
     return (
       <span style={{ width: '100%' }}>
         {paddedHours}:{paddedMinutes}:{paddedSeconds}
