@@ -96,7 +96,7 @@ const Balances: React.FC = () => {
               <div style={{ flex: 1 }}>
                 <Label text="Your LDOGE Balance" />
                 <Value
-                  value={!!account ? getBalanceNumber(sushiBalance) : 'Unlock'}
+                  value={!!account ? getBalanceNumber(sushiBalance) : 'Locked'}
                 />
               </div>
             </StyledBalance>
@@ -115,7 +115,7 @@ const Balances: React.FC = () => {
         <CardContent>
           <Label text="Total LDOGE Supply" />
           <Value
-            value={totalSupply ? getBalanceNumber(totalSupply) : 'Unlock'}
+            value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
           />
         </CardContent>
         <Footnote>
