@@ -458,20 +458,20 @@ SLP Address on mainnet for reference
 
 // JUICYSWAP SETTINGS
 
-export const CHAIN_ID = 321
+export const CHAIN_ID = 3
 
 export const contractAddresses = {
   sushi: {
-    321: '0xf22ee5dedf2f93b1db30fcbd053665e1fdde141b',
+    3: '0xF62C1eE52f19e7DfBC4CA0bE73cA28AA57a86784',
   },
   masterChef: {
-    321: '0xed4E25d5ab844a645a76c28E0f3c2325609c3dB3',
+    3: '0xfdbB034Cdc3980baEae13D8C3d3C82BD98b4e60b',
   },
   weth: {
-    321: '0x4446fc4eb47f2f6586f9faab68b3498f86c07521',
+    3: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
   },
   xSushi: {
-    321: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
+    3: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
   }
 }
 
@@ -481,15 +481,15 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      321: '0x75d9a2ae2a78d5bd5434ef38b53e67d8cbef0c31', // LP Token Address
+      3: '0xC3516054baFC21DE07520Bad6F7cD8276FA1EFC9', // LP Token Address
     },
     tokenAddresses: {
-      321: '0xf22ee5dedf2f93b1db30fcbd053665e1fdde141b', // Token, i.e. "DAI"
+      3: '0xF62C1eE52f19e7DfBC4CA0bE73cA28AA57a86784', // Token, i.e. "DAI"
     },
-    name: 'Juice Party!',
-    symbol: 'JUICY-KCS LP',
-    tokenSymbol: 'JUICY',
-    icon: '🍊',
+    name: 'Legend Doge',
+    symbol: 'LDOGE-MATIC LP',
+    tokenSymbol: 'LDOGE',
+    icon: '🐶',
   },
 ]
 
